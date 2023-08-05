@@ -80,29 +80,7 @@
     font-weight: var(--fw-xxl);
 }
 
-@media (min-width:) {
-    :root {
-        --fs-sm: 18px;
-        --fs-md: 20px;
-        --fs-xl: 19px;
-        --fs-2xl: 36px;
-        --fs-3xl: 48px;
-        --fs-4xl: 41px;
-        /* color */
-        --tx-color-tertiary: #9003E5;
-        --tx-color-tertiary2: #8A3E74;
-        --tx-color-primary: #000;
-        --tx-color-secandary: #fff;
-        /* font weight */
-        --font-family: 'Poppins', sans-serif;
-        /* font-weight */
-        --fw-sm: 400;
-        --fw-md: 500;
-        --fw-xl: 600;
-        --fw-xxl: 700;
 
-    }
-}
 @media (min-width:576px) {
     :root {
         --fs-sm: 18px;

@@ -609,7 +609,7 @@ footer ul li a:hover::after {
 .img-position1 {
     position: absolute;
     left: 9%;
-    top: 41%;
+    top: 48%;
     transform: rotate(11deg);
     z-index: -1;
 
@@ -618,7 +618,7 @@ footer ul li a:hover::after {
 .img-position3 {
     position: absolute;
     left: 34%;
-    top: 40%;
+    top: 47%;
     transform: rotate(11deg);
     z-index: -1;
 }
@@ -626,7 +626,7 @@ footer ul li a:hover::after {
 .img-position5 {
     position: absolute;
     left: 58%;
-    top: 40%;
+    top: 47%;
     transform: rotate(11deg);
     z-index: -1;
 }
@@ -634,7 +634,7 @@ footer ul li a:hover::after {
 .img-position2 {
     position: absolute;
     left: 22%;
-    top: 39%;
+    top: 46%;
     transform: rotate(-12deg);
     z-index: -1;
 
@@ -643,7 +643,7 @@ footer ul li a:hover::after {
 .img-position4 {
     position: absolute;
     left: 47%;
-    top: 38%;
+    top: 45%;
     transform: rotate(-12deg);
     z-index: -1;
 }
@@ -651,7 +651,7 @@ footer ul li a:hover::after {
 .img-position6 {
     position: absolute;
     left: 71%;
-    top: 37%;
+    top: 44%;
     transform: rotate(-12deg);
     z-index: -1;
 }
