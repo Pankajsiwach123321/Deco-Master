@@ -1,0 +1,176 @@
+:root {
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-xl: 19px;
+    --fs-2xl: 24px;
+    --fs-3xl: 32px;
+    --fs-4xl: 45px;
+    /* color */
+    --tx-color-tertiary: #9003E5;
+    --tx-color-tertiary2: #8A3E74;
+    --tx-color-primary: #000;
+    --tx-color-secandary: #fff;
+    /* font weight */
+    --font-family: 'Poppins', sans-serif;
+    /* font-weight */
+    --fw-sm: 400;
+    --fw-md: 500;
+    --fw-xl: 600;
+    --fw-xxl: 700;
+
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs-3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs-4xl {
+    font-size: var(--fs-4xl);
+}
+
+.tx-color-tertiary {
+    color: var(--tx-color-tertiary);
+}
+
+.tx-color-tertiary2 {
+    color: var(--tx-color-tertiary2);
+}
+
+.tx-color-primary {
+    color: var(--tx-color-primary);
+}
+
+.tx-color-secandary {
+    color: var(--tx-color-secandary);
+}
+
+.font-family {
+    font-family: var(--font-family);
+}
+
+.font-weight-400 {
+    font-weight: var(--fw-sm);
+}
+
+.font-weight-500 {
+    font-weight: var(--fw-md);
+}
+
+.font-weight-600 {
+    font-weight: var(--fw-xl);
+}
+
+.font-weight-700 {
+    font-weight: var(--fw-xxl);
+}
+
+@media (min-width:) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-xl: 19px;
+        --fs-2xl: 36px;
+        --fs-3xl: 48px;
+        --fs-4xl: 41px;
+        /* color */
+        --tx-color-tertiary: #9003E5;
+        --tx-color-tertiary2: #8A3E74;
+        --tx-color-primary: #000;
+        --tx-color-secandary: #fff;
+        /* font weight */
+        --font-family: 'Poppins', sans-serif;
+        /* font-weight */
+        --fw-sm: 400;
+        --fw-md: 500;
+        --fw-xl: 600;
+        --fw-xxl: 700;
+
+    }
+}
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 18px;
+        --fs-xl: 20px;
+        --fs-2xl: 26px;
+        --fs-3xl: 32px;
+        --fs-4xl: 44px;
+        /* color */
+        --tx-color-tertiary: #9003E5;
+        --tx-color-tertiary2: #8A3E74;
+        --tx-color-primary: #000;
+        --tx-color-secandary: #fff;
+        /* font weight */
+        --font-family: 'Poppins', sans-serif;
+        /* font-weight */
+        --fw-sm: 400;
+        --fw-md: 500;
+        --fw-xl: 600;
+        --fw-xxl: 700;
+
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 18px;
+        --fs-xl: 20px;
+        --fs-2xl: 24px;
+        --fs-3xl: 36px;
+        --fs-4xl: 42px;
+        /* color */
+        --tx-color-tertiary: #9003E5;
+        --tx-color-tertiary2: #8A3E74;
+        --tx-color-primary: #000;
+        --tx-color-secandary: #fff;
+        /* font weight */
+        --font-family: 'Poppins', sans-serif;
+        /* font-weight */
+        --fw-sm: 400;
+        --fw-md: 500;
+        --fw-xl: 600;
+        --fw-xxl: 700;
+
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-xl: 24px;
+        --fs-2xl: 36px;
+        --fs-3xl: 48px;
+        --fs-4xl: 144px;
+        /* color */
+        --tx-color-tertiary: #9003E5;
+        --tx-color-tertiary2: #8A3E74;
+        --tx-color-primary: #000;
+        --tx-color-secandary: #fff;
+        /* font weight */
+        --font-family: 'Poppins', sans-serif;
+        /* font-weight */
+        --fw-sm: 400;
+        --fw-md: 500;
+        --fw-xl: 600;
+        --fw-xxl: 700;
+
+    }
+}
