@@ -7,7 +7,6 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none;
-    /* border: 2px solid red; */
 }
 
 .mycontainer {
@@ -204,19 +203,10 @@ ul {
 .pt-182 {
     padding-top: 182px;
 }
-.pt-12{
+
+.pt-12 {
     padding-top: 12px;
 }
-.justify-content-start {
-    justify-content: start !important;
-}
-
-/* .mr-550{
-    padding-right: 550px !important;
-} */
-/* .pr-277{
-    padding-right: px !important;
-} */
 
 .pt-42 {
     padding-top: 42px;
@@ -224,14 +214,6 @@ ul {
 
 .mt-237 {
     margin-top: 237px;
-}
-
-.px-auto {
-    margin-left: auto;
-}
-
-.px2-auto {
-    margin-right: auto;
 }
 
 nav ul li a {
@@ -316,7 +298,6 @@ footer ul li a:hover::after {
     font-size: var(--fw-sm);
     text-align: center;
     font-weight: var(--fw-sm);
-
 }
 
 .free {
@@ -354,7 +335,6 @@ footer ul li a:hover::after {
     font-size: var(--fs-3xl);
     font-style: normal;
     font-weight: var(--fw-xxl);
-
 }
 
 .standard {
@@ -373,7 +353,6 @@ footer ul li a:hover::after {
 }
 
 .residential {
-
     color: var(--tx-color-primary);
     font-family: var(--font-family);
     font-size: var(--fs-3xl);
@@ -435,7 +414,6 @@ footer ul li a:hover::after {
     cursor: pointer;
     color: #010080;
     background-color: var(--tx-color-secandary);
-
 }
 
 .newsletter {
@@ -479,7 +457,6 @@ footer ul li a:hover::after {
 .buttno:hover {
     background-color: #010080;
     color: var(--tx-color-secandary);
-
 }
 
 .your {
@@ -599,20 +576,12 @@ footer ul li a:hover::after {
     top: 59%;
 }
 
-.imgstrip {
-    max-width: 100%;
-    max-height: 100%;
-
-
-}
-
 .img-position1 {
     position: absolute;
     left: 9%;
     top: 48%;
     transform: rotate(11deg);
     z-index: -1;
-
 }
 
 .img-position3 {
@@ -637,7 +606,6 @@ footer ul li a:hover::after {
     top: 46%;
     transform: rotate(-12deg);
     z-index: -1;
-
 }
 
 .img-position4 {
@@ -699,7 +667,6 @@ footer ul li a:hover::after {
 .imageradius {
     border-radius: 48px !important;
     overflow: hidden !important;
-
 }
 
 .imagepaint-absolute {
@@ -727,7 +694,6 @@ footer ul li a:hover::after {
     position: absolute;
     top: 43%;
     left: 75%;
-
 }
 
 .absolute-paint3 {
@@ -860,8 +826,6 @@ footer ul li a:hover::after {
     position: absolute;
     bottom: 3%;
     right: 0%;
-    overflow: hidden !important;
-    /* z-index: ; */
 }
 
 .pinkpaint-a {
@@ -898,35 +862,43 @@ footer ul li a:hover::after {
     object-fit: contain;
     transition: opacity .8s;
 }
+
 .figure:hover .img-hover {
-     opacity: 1;
+    opacity: 1;
 }
-.slider{
+
+.slider {
     height: 300px;
     display: grid;
     overflow: hidden;
 }
-.slider-track{
+
+.slider-track {
     width: calc(250px*18);
     display: flex;
     animation: scroll 4s linear infinite;
 }
-.slide{
+
+.slide {
     height: 200px;
     display: flex;
 }
-.sofacover{
+
+.sofacover {
     width: 100%;
     transition: transfrom 1s;
 }
-.sofacover:hover{
+
+.sofacover:hover {
     transform: translateZ(20px);
 }
+
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(calc(-250px));
     }
 }
@@ -984,7 +956,6 @@ footer ul li a:hover::after {
         width: 0;
         height: 0;
         border: 1px dashed #000;
-
     }
 
     .finishes::after {
@@ -995,7 +966,6 @@ footer ul li a:hover::after {
         width: 0;
         height: 0;
         border: 1px dashed #000;
-
     }
 
     .finishe::after {
@@ -1006,8 +976,6 @@ footer ul li a:hover::after {
         width: 0;
         height: 0;
         border: 1px dashed #000;
-
-
     }
 
     .window::after {
@@ -1018,7 +986,6 @@ footer ul li a:hover::after {
         width: 0;
         height: 0;
         border: 1px dashed #000;
-
     }
 
 }
@@ -1052,7 +1019,6 @@ footer ul li a:hover::after {
         width: 00px;
         height: 0px;
         border: 1px dashed #000;
-
     }
 
     .window::after {
@@ -1153,7 +1119,7 @@ footer ul li a:hover::after {
         left: 87%;
         z-index: 1;
     }
-        
+
 }
 
 @media (max-width:1700px) {
@@ -1318,5 +1284,4 @@ footer ul li a:hover::after {
         background: #EEE;
         display: none;
     }
-
 }
