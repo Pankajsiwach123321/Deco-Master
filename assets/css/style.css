@@ -837,6 +837,15 @@ footer ul li a:hover::after {
     bottom: 3%;
     right: 0%;
 }
+.position-ad {
+    position: unset;
+    
+}
+
+.position-ab {
+    position: unset;
+    
+}
 
 .pinkpaint-a {
     position: absolute;
@@ -912,7 +921,13 @@ footer ul li a:hover::after {
         transform: translateX(calc(-250px));
     }
 }
+@media (max-width:448px) {
+    .w-1{
+        width: 100%;
+    }
 
+    
+}
 @media (max-width:1400px) {
     label[for="iconbox"] {
         width: 30px;
@@ -953,6 +968,22 @@ footer ul li a:hover::after {
         opacity: 1;
         pointer-events: all;
     }
+}
+@media (min-width:1450px) {
+    .position-ad {
+            position: absolute;
+            top: 32%;
+            left: 23%;
+            z-index: 2;
+        }
+    
+        .position-ab {
+            position: absolute;
+            top: 32%;
+            left: 73%;
+            z-index: 2;
+        }
+    
 }
 
 @media (min-width:200px) {
@@ -1235,6 +1266,13 @@ footer ul li a:hover::after {
         top: 2%;
         display: none;
     }
+        .image-corner {
+            position: absolute;
+            right: 0%;
+            bottom: 0%;
+            z-index: 0;
+            display: none;
+        }
 
     .red-absoluote {
         position: absolute;
